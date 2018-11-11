@@ -1,0 +1,45 @@
+body{
+	/*background: url('main.jpeg') no-repeat;*/
+	background: white;	
+	background-size: cover;
+	font-family: Arial;
+	color: black;
+}
+
+.navegation{
+	opacity:0.8;
+	font-style: bold;
+	font-size: 13px;
+	position: relative;
+	z-index: 1;
+}
+
+img{
+	width: 100%;
+}
+
+p{
+	color: black;
+}
+
+.width_category{
+	width: 10%;
+}
+table{
+	color:black;
+}
+
+.t_welcome{
+	color: blue;
+}
+
+.profile_photo{
+	width: 50%;
+	height: 50%;
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+#mislider{width:400;height:400px;}
