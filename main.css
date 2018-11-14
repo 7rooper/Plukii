@@ -14,6 +14,10 @@ body{
 	z-index: 1;
 }
 
+a{
+	text-decoration: none;
+}
+
 img{
 	width: 100%;
 }
@@ -22,15 +26,17 @@ p{
 	color: black;
 }
 
-.width_category{
-	width: 10%;
-}
 table{
 	color:black;
 }
 
 .t_welcome{
 	color: blue;
+	text-align: right;
+}
+
+.t_body{
+	text-align: right;	
 }
 
 .profile_photo{
@@ -43,3 +49,15 @@ table{
 .w3-badge {height:13px;width:13px;padding:0}
 
 #mislider{width:400;height:400px;}
+
+.style_100{
+	width: 100%;
+}
+
+.style_50{
+	width: 50%;
+}
+
+.style_25{
+	width: 25%;
+}
