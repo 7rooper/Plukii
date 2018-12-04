@@ -2,55 +2,38 @@
 <html lang="es">
 	<head>
 		<meta charset='UTF-8'>
-		<link href='main.css' rel='stylesheet'>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="slider.css">
+		<link href='main.css' rel="stylesheet">
+		<link rel="icon" href="img/logo.jpg" type="image/jpg" sizes="16x16">
 	</head>
 
 	<body>	
 		<!-- Header medium and large screen -->
-		<div class="w3-container w3-hide-small w3-light-grey">
-			<table class="style_100">
-				<tr class="w3-border">
-					<td rowspan="3" style="width: 25%">
-						<img src="img/logo.jpg" style="width:55%">
-					</td>
-					<td rowspan="2" colspan="2" style="width: 55%">
-						<h2 class="w3-center"> ¿Que quieres comprar hoy? </h2>
-					</td>
-					<th style="width: 20%" class="t_welcome">
-						Bienvenido,
-					</th>
-				</tr>
-				<tr>
-					<th colspan="2" class="t_body"> Johnny Sanchez </th>
-				</tr>
-				<tr class="w3-border">
-					<!--<td>
-						<input style="width: 100%" type="text" class="w3-border w3-border-indigo w3-white" placeholder="Buscar...">
-					</td>
-					<td style="width:2%"	>
-						<img src="img/icon_search.jpg">
-					</td>-->
-					<td rowspan="2" colspan="2" style="width: 55%">
-						<div class="w3-bar">
-							<input type="text" class="w3-border w3-border-indigo w3-bar-item" placeholder="Buscar..." style="width:94%">
-							<img src="img/icon_search.jpg" style="width:6%">
-						</div>
-					</td>
-					<th class="t_body"> 110131, Bogotá	</th>
-				</tr>
-			</table>
+		<div class="w3-container w3-padding w3-padding-16 w3-hide-small w3-light-grey">
+			<div class="w3-container w3-col l3 w3-mobile">
+				<img class="w3-padding w3-padding-16" src="img/logo.jpg" style="width:60%">				
+			</div>
+			<div class="w3-container w3-col l7 w3-mobile">
+				<h2 class="w3-center"> ¿Que quieres comprar hoy? </h2>
+				<div class="w3-bar">
+					<input type="text" class="w3-border w3-border-indigo w3-bar-item" placeholder="Buscar..." style="width:95%">
+					<img src="img/icon_search.jpg" style="width:5%">
+				</div>
+			</div>
+			<div class="w3-container w3-col l2">
+				<p class="perfil" style="color: blue;"> Bienvenido,<br> 
+					<span style="color: black;"> Johnny Sanchez<br> 110131, Bogotá </span></p>
+			</div>
 
 			<!-- Menu, favorites and shopping medium and large screen -->
 			<table class="w3-hide-small" style="width:100%">
 				<tr>
-					<td style="width:5%">
+					<td style="width:3%">
 						<div class="w3-dropdown-hover navegation">
 							<a class="w3-indigo w3-large">
 								<img class="w3-center" src="img/icon_menu.jpg" style="width:100%">
@@ -68,12 +51,12 @@
 						</div>  	
 					</td>
 					<td></td>
-					<td style="width:5%">
+					<td style="width:3%">
 						<a href="http://www.gamespot.com">
 						<img src="img/icon_favorites.jpg" style="width:100%">
 						</a>
 					</td>
-					<td style="width:5%">
+					<td style="width:3%">
 						<a href="http://www.gamespot.com">
 						<img src="img/icon_cart.jpg" style="width:100%">
 						</a>
@@ -209,203 +192,234 @@
 		</script>
 		<!-- Fin slider pantalla completa -->
 
-			<h4 class="w3-center"> COMPRAS POR CATEGORIA </h4>
+		<h5 class="w3-center" style="font-family: sans-serif;"> COMPRAS POR CATEGORIA </h5	>
 
-			<div class="w3-padding-10">
-				<!-- Shop by category medium and large screen --> 
-				<table class="w3-hide-small w3-hide-medium style_100">
-					<tr>
-						<td class="style_25">
-							<div class="w3-card-4" style="width:100%">
-								<a href="cellphones.html">
-									<div class="w3-container w3-center">
-										<p>Celulares & Accesorios</p>
-									</div>
-										<img src="img/img_cat_cellphones-accesories.jpg" alt="Cellphones" style="width:100%">
-									<div class="w3-container"><p></p></div>
-								</a>
-							</div>
-						</td>
-						<td class="style_25">
-							<div class="w3-card-4" style="width:100%">
-								<a href="computers.html">
-									<div class="w3-container w3-center">
-										<p>Computadores</p>
-									</div>
-									<img src="img/img_cat_computers.jpg" alt="Computers" style="width:100%">
-									<div class="w3-container"><p></p></div>
-								</a>
-							</div>
-						</td>
-						<td class="style_25">
-							<div class="w3-card-4" style="width:100%">
-								<a href="consumers-electronics.html">
-									<div class="w3-container w3-center">
-										<p>Electronica & Tecnologia</p>
-									</div>
-									<a href="http://www.gamespot.com">
-									<img src="img/img_cat_consumerelectronics.jpg" alt="Consumer Electronics" style="width:100%">
-									</a>
-									<div class="w3-container"><p></p></div>
-								</a>
-							</div>
-						</td>
-						<td class="style_25">
-							<div class="w3-card-4" style="width:100%">
-							<a href="home-office.html">
-								<div class="w3-container w3-center">
-									<p>Hogar & Oficina</p>
-								</div>
-								<img src="img/img_cat_home-office.jpg" alt="Home and Office" style="width:100%">
+		<div class="w3-padding-10">
+			<!-- Shop by category medium and large screen -->
+			<table class="w3-hide-small style_100">
+				<tr class="w3-center font-categories">
+					<td>Celulares & Accesorios</td>
+					<td>Computadores</td>
+					<td>Electronica & Tecnologia</td>
+					<td>Hogar & Oficina</td>
+					<td>Videojuegos</td>
+				</tr>
+				<tr>
+					<td style="width: 20%" class="category">
+						<div class="w3-card-4" style="width:100%">
+							<a href="cellphones.html">
+								<!--<div class="w3-container w3-center">
+									<p>Celulares & Accesorios</p>
+								</div>-->
+									<img src="img/img_cat_cellphones-accesories.jpg" alt="Cellphones" style="width:100%;">
 								<div class="w3-container"><p></p></div>
 							</a>
-							</div>
-						</td>						
-					</tr>
-
-					<tr>
-						<td>
-							<div class="w3-card-4" style="width:100%">
-								<div class="w3-container w3-center">
-									<p>Videojuegos</p>
-								</div>
+						</div>
+					</td>
+					<td style="width: 20%" class="category">
+						<div class="w3-card-4" style="width:100%">
+							<a href="computers.html">
+								<img src="img/img_cat_computers.jpg" alt="Sports and Hobbies" style="width:100%">
+								<div class="w3-container"><p></p></div>
+							</a>
+						</div>
+					</td>
+					<td style="width: 20%" class="category">
+						<div class="w3-card-4" style="width:100%">
+							<a href="consumers-electronics.html">
 								<a href="http://www.gamespot.com">
-								<img src="img/img_cat_videogames.jpg" alt="Videogames" style="width:100%">
+								<img src="img/img_cat_consumerelectronics.jpg" alt="Consumer Electronics" style="width:100%">
 								</a>
 								<div class="w3-container"><p></p></div>
-							</div>
-						</td>
-						<td>
+							</a>
+						</div>
+					</td>
+					<td style="width: 20%" class="category">
+						<div class="w3-card-4" style="width:100%">
+						<a href="home-office.html">
+							<img src="img/img_cat_home-office.jpg" alt="Home and Office" style="width:100%">
+							<div class="w3-container"><p></p></div>
+						</a>
+						</div>
+					</td>	
+					<td style="width: 20%" class="category">
+						<div class="w3-card-4" style="width:100%">
+							<a href="videogames.html">
+							<img src="img/img_cat_videogames.jpg" alt="Videogames" style="width:100%">
+							</a>
+							<div class="w3-container"><p></p></div>
+						</div>
+					</td>				
+				</tr>
+				<tr><td></td></tr>
+				<tr><td></td></tr>
+				<tr class="w3-center font-categories">
+					<td>Deportes & Hobbies</td>
+					<td>Salud & Bienestar</td>
+					<td>Vehiculos</td>
+				</tr>
+				<tr>
+					<td style="width: 20%" class="category">
+						<div class="w3-card-4" style="width:100%">
+							<a href="sports-hobbies.html">
+							<img src="img/img_cat_sports-hobbies.jpg" alt="Computers" style="width:100%">
+							</a>
+							<div class="w3-container"><p></p></div>
+						</div>
+					</td>	
+					<td style="width: 20%" class="category">
+						<div class="w3-card-4" style="width:100%">
+							<a href="">
+							<img src="img/img_cat_health.jpg" alt="Health and Wellfare" style="width:100%">
+							</a>
+							<div class="w3-container"><p></p></div>
+						</div>
+					</td>
+					<td style="width: 20%" class="category">
+						<a href="">
 							<div class="w3-card-4" style="width:100%">
-								<div class="w3-container w3-center">
-									<p>Deportes & Hobbies</p>
-								</div>
-								<a href="http://www.gamespot.com">
-								<img src="img/img_cat_sports-hobbies.jpg" alt="Sports and Hobbies" style="width:100%">
-								</a>
-								<div class="w3-container"><p></p></div>
-							</div>
-						</td>
-						<td>
-							<div class="w3-card-4" style="width:100%">
-								<div class="w3-container w3-center">	
-									<p>Salud & Bienestar</p>
-								</div>
-								<a href="http://www.gamespot.com">
-								<img src="img/img_cat_health.jpg" alt="Health and Wellfare" style="width:100%">
-								</a>
-								<div class="w3-container"><p></p></div>
-							</div>
-						</td>
-						<td>
-							<div class="w3-card-4" style="width:100%">
-								<div class="w3-container w3-center">
-									<p>Vehiculos</p>
-								</div>
-								<a href="http://www.gamespot.com">
-								<img src="img/img_cat_vehicles.jpg" alt="Vehicles" style="width:100%">
-								</a>
-								<div class="w3-container"><p></p></div>
-							</div>
-						</td>						
-					</tr>
-				</table>
-
-				<!-- Shop by category small screen -->
-				<table class="style_100 w3-hide-large">
-					<tr class="style_100">
-						<td class="style_50">
-							<div class="w3-card-4" style="width:100%">
-								<a href="cellphones.html">
-									<div class="w3-container w3-center">
-										<p>Celulares & Accesorios</p>
-									</div>
-									<img src="img/img_cat_cellphones-accesories.jpg" alt="Cellphones">
-								</a>
-								<div class="w3-container"><p></p></div>
-							</div>
-						</td>
-						<td class="style_50">
-							<div class="w3-card-4" style="width:100%">
-								<a href="computers.html">
-									<div class="w3-container w3-center">
-										<p>Computadores</p>
-									</div>
-									<img src="img/img_cat_computers.jpg" alt="Computers" style="width:100%">
-								</a>
-								<div class="w3-container"><p></p></div>
-							</div>
-						</td>
-					</tr>
-					<tr class="style_100">
-						<td class="style_50">
-							<div class="w3-card-4" style="width:100%">
-								<a href="cellphones.html">
-									<div class="w3-container w3-center">
-										<p>Electronica & Tecnologia</p>
-									</div>
-									<img src="img/img_cat_consumerelectronics.jpg" alt="Cellphones">
-								</a>
-								<div class="w3-container"><p></p></div>
-							</div>
-						</td>
-						<td class="style_50">
-							<div class="w3-card-4" style="width:100%">
-								<a href="computers.html">
-									<div class="w3-container w3-center">
-										<p>Hogar & Oficina</p>
-									</div>
-									<img src="img/img_cat_home-office.jpg" alt="Computers" style="width:100%">
-								</a>
-								<div class="w3-container"><p></p></div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<div class="w3-card-4" style="width:100%">
-								<div class="w3-container w3-center">
-									<p>Videojuegos</p>
-								</div>
-								<img src="img/img_cat_videogames.jpg" alt="Videogames" style="width:100%">
-								<div class="w3-container"><p></p></div>
-							</div>
-						</td>
-						<td>
-							<div class="w3-card-4" style="width:100%">
-								<div class="w3-container w3-center">
-									<p>Deportes & Hobbies</p>
-								</div>
-								<img src="img/img_cat_sports-hobbies.jpg" alt="Sports and Hobbies" style="width:100%">
-								<div class="w3-container"><p></p></div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<div class="w3-card-4" style="width:100%">
-								<div class="w3-container w3-center">		<p>Salud & Bienestar</p>
-								</div>
-								<img src="img/img_cat_health.jpg" alt="Health and Wellfare" style="width:100%">
-								<div class="w3-container"><p></p></div>
-							</div>
-						</td>
-						<td>
-							<div class="w3-card-4" style="width:100%">
-								<div class="w3-container w3-center">
-									<p>Vehiculos</p>
-								</div>
 								<img src="img/img_cat_vehicles.jpg" alt="Vehicles" style="width:100%">
 								<div class="w3-container"><p></p></div>
 							</div>
-						</td>						
-					</tr>
-				</table>
-			</div>
+						</a>
+					</td>						
+				</tr>
+			</table>
+
+			<!-- Shop by category small screen -->
+			<table class="w3-hide-large w3-hide-medium">
+				<tr class="w3-center font-categories">
+					<td>Celulares & Accesorios</td>
+					<td>Computadores</td>
+					<td>Electronica & Tecnologia</td>
+				</tr>
+				<tr>
+					<td style="width: 33%">
+						<div class="w3-card-4" style="width:100%">
+							<a href="cellphones.html">
+								<!--<div class="w3-container w3-center">
+									<p>Celulares & Accesorios</p>
+								</div>-->
+									<img src="img/img_cat_cellphones-accesories.jpg" alt="Cellphones" style="width:100%;">
+								<div class="w3-container"><p></p></div>
+							</a>
+						</div>
+					</td>
+					<td style="width: 33%">
+						<div class="w3-card-4" style="width:100%">
+							<a href="computers.html">
+								<img src="img/img_cat_sports-hobbies.jpg" alt="Sports and Hobbies" style="width:100%">
+								<div class="w3-container"><p></p></div>
+							</a>
+						</div>
+					</td>
+					<td style="width: 34%">
+						<div class="w3-card-4" style="width:100%">
+							<a href="consumers-electronics.html">
+								<a href="http://www.gamespot.com">
+								<img src="img/img_cat_consumerelectronics.jpg" alt="Consumer Electronics" style="width:100%">
+								</a>
+								<div class="w3-container"><p></p></div>
+							</a>
+						</div>
+					</td>		
+				</tr>
+				<tr><td></td></tr>
+				<tr><td></td></tr>
+				<tr class="w3-center font-categories">
+					<td>Hogar & Oficina</td>
+					<td>Videojuegos</td>
+					<td>Deportes & Hobbies</td>
+				</tr>
+				<tr>
+					<td style="width: 33%">
+						<div class="w3-card-4" style="width:100%">
+							<a href="cellphones.html">
+								<!--<div class="w3-container w3-center">
+									<p>Celulares & Accesorios</p>
+								</div>-->
+									<img src="img/img_cat_cellphones-accesories.jpg" alt="Cellphones" style="width:100%;">
+								<div class="w3-container"><p></p></div>
+							</a>
+						</div>
+					</td>
+					<td style="width: 33%">
+						<div class="w3-card-4" style="width:100%">
+							<a href="computers.html">
+								<img src="img/img_cat_sports-hobbies.jpg" alt="Sports and Hobbies" style="width:100%">
+								<div class="w3-container"><p></p></div>
+							</a>
+						</div>
+					</td>
+					<td style="width: 34%">
+						<div class="w3-card-4" style="width:100%">
+							<a href="consumers-electronics.html">
+								<a href="http://www.gamespot.com">
+								<img src="img/img_cat_consumerelectronics.jpg" alt="Consumer Electronics" style="width:100%">
+								</a>
+								<div class="w3-container"><p></p></div>
+							</a>
+						</div>
+					</td>		
+				</tr>
+				<tr><td></td></tr>
+				<tr><td></td></tr>
+				<tr class="w3-center font-categories">
+					<td>Salud & Bienestar</td>
+					<td>Vehiculos</td>
+				</tr>
+				<tr>
+					<td style="width: 33%">
+						<div class="w3-card-4" style="width:100%">
+							<a href="cellphones.html">
+								<!--<div class="w3-container w3-center">
+									<p>Celulares & Accesorios</p>
+								</div>-->
+									<img src="img/img_cat_cellphones-accesories.jpg" alt="Cellphones" style="width:100%;">
+								<div class="w3-container"><p></p></div>
+							</a>
+						</div>
+					</td>
+					<td style="width: 33%">
+						<div class="w3-card-4" style="width:100%">
+							<a href="computers.html">
+								<img src="img/img_cat_sports-hobbies.jpg" alt="Sports and Hobbies" style="width:100%">
+								<div class="w3-container"><p></p></div>
+							</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
 		<p></p>
-		<footer class="w3-light-grey">
-			<div class="w3-container">
-				<p></p>
+		<footer class="w3-black">
+			<div class="w3-row">
+				<div class="w3-col w3-container w3-padding w3-padding-32 s9 m9 l10">
+					<a href="">Inicio</a><br>
+					<a href="">Tu Cuenta</a><br>
+					<a href="">Recomendados</a><br><br>
+					<a href="">Contactenos</a>
+				</div>
+				<div class="w3-col w3-padding w3-padding-32 w3-container w3-center s3 m3 l2">
+					<table>
+						<tr>
+							<td style="width: 20%">
+								<a href="https://www.facebook.com">
+									<img style="width: 60%" src="img/facebook.png"></a></td>
+							<td style="width: 20%">
+								<a href="https://www.instagram.com">
+									<img style="width: 60%" src="img/instagram.png"></a>
+							</td>
+							<td style="width: 20%">
+								<a href="https://www.twitter.com">
+									<img style="width: 60%" src="img/twitter.png"></a>
+							</td>
+						</tr>
+					</table>					
+				</div>
+				<div class="w3-col w3-container w3-center s12 m12 l12">
+					<p>© 2018 Plukii es una marca registrada del grupo empresarial Galavi S.A. <br> Todos los derechos reservados.</p>
+				</div>
 			</div>
 		</footer>
 	</body>
